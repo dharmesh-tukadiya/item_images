@@ -1,0 +1,61 @@
+[id="page-List/Item Price/List"],
+[id="page-List/Item/List"] {
+    .list-row-border {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    [data-sort-by="item_name"] {
+        padding-left: 10px;
+        ;
+    }
+}
+
+[id="page-Purchase Order"],
+[id="page-Material Request"],
+[id="page-Supplier Quotation"],
+[id="page-Stock Entry"],
+[id="page-Purchase Receipt"],
+[id="page-Delivery Note"],
+[id="page-Product Bundle"],
+[id="page-Purchase Invoice"],
+[id="page-Request for Quotation"],
+[id="sales-order-__details"],
+[id="page-Quotation"],
+[id="page-Sales Invoice"],
+[id="page-Blanket Order"] {
+    .item-img-preview-po-order {
+        height: 60px;
+        width: 60px;
+        object-fit: cover;
+    }
+
+    .grid-heading-row {
+        .item-div-preview-po-order-header {
+            flex-basis: content;
+        }
+    }
+
+    .grid-body {
+        .data-row {
+            .item-div-preview-po-order {
+                flex-basis: content;
+            }
+
+            .grid-static-col,
+            .row-index,
+            .row-check {
+                height: 75px;
+            }
+
+            .field-area,
+            .static-area {
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+    }
+
+}
