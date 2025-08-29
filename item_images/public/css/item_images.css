@@ -59,3 +59,16 @@
     }
 
 }
+
+
+[data-route="query-report/Supply Needs"] {
+    .datatable {
+        .dt-header {
+            .dt-row-filter {
+                .dt-cell {
+                    height: 35px;
+                }
+            }
+        }
+    }
+}
